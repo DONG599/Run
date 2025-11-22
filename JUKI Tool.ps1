@@ -1,5 +1,5 @@
 # --- CẤU HÌNH ---
-$ExeUrl = "https://github.com/DONG599/DWL-OS-/releases/download/JUKI-Tool/JUKI.Tool.V1.0.1.exe"
+$ExeUrl = "https://github.com/DONG599/DWL-OS-/releases/download/JUKI-Tool/JUKI.exe"
 $SavePath = "$env:TEMP\JUKI.exe" # Lưu vào thư mục Temp
 
 # --- GIAO DIỆN ---
@@ -23,3 +23,4 @@ catch {
     Write-Host "Loi: Khong the tai tool. Kiem tra lai ket noi mang!" -ForegroundColor Red
     Write-Host $_.Exception.Message -ForegroundColor Red
 }
+
