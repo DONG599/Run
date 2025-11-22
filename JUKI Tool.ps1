@@ -4,7 +4,7 @@ $SavePath = "$env:TEMP\JUKI.exe" # Lưu vào thư mục Temp
 
 # --- GIAO DIỆN ---
 Write-Host "------------------------------------------------" -ForegroundColor Cyan
-Write-Host "      DANG TAI JUKI INSTALLER TOOL...           " -ForegroundColor Green
+Write-Host "      DANG TAI JUKI TOOL...           " -ForegroundColor Green
 Write-Host "------------------------------------------------" -ForegroundColor Cyan
 
 try {
@@ -23,4 +23,5 @@ catch {
     Write-Host "Loi: Khong the tai tool. Kiem tra lai ket noi mang!" -ForegroundColor Red
     Write-Host $_.Exception.Message -ForegroundColor Red
 }
+
 
